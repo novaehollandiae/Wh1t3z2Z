@@ -1,0 +1,11 @@
+# vscode配置GO开发环境(windows)
+1) 基础软件安装：
+    *) Golang
+    *) Vscode
+    *) Git
+2) 环境变量配置：
+    *) go env -w GO111MODULE=on
+    *) go env -w GOPROXY=https://goproxy.io,direct
+O) GoModule：
+    *) go mod init PACKAGENAME
+    *) go mod download
